@@ -1,0 +1,14 @@
+{
+  "apiVersion": 2,
+  "name": "trailguide/ai-qa",
+  "title": "AI Q&A (Trailguide)",
+  "category": "widgets",
+  "icon": "format-chat",
+  "description": "Question & answer box that uses your OpenAI key to answer travel questions in context of the current guide.",
+  "supports": {
+    "html": false
+  },
+  "editorScript": "",
+  "style": "trailguide-ai",
+  "render": "file:./render.php"
+}

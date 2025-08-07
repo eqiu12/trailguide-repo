@@ -1,0 +1,16 @@
+
+:root{
+  --tg-border: #e8ecf3;
+}
+body { background: var(--wp--preset--color--bg); color: var(--wp--preset--color--text); }
+.wp-site-blocks { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+.tg-hero { padding: 4rem 0; background: var(--wp--preset--color--muted); border-radius: 24px; }
+.tg-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
+.tg-card { border:1px solid var(--tg-border); border-radius:16px; padding:16px; background:#fff; transition: transform .2s ease, box-shadow .2s ease; }
+.tg-card:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,.06); }
+.tg-meta { font-size: 12px; opacity:.7; }
+.tg-map { border:1px solid var(--tg-border); border-radius: 16px; overflow: hidden; }
+.tg-badge { display:inline-block; padding:.25rem .5rem; border:1px solid var(--tg-border); border-radius: 999px; font-size:12px; }
+.tg-toolbar { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.tg-toolbar input, .tg-toolbar select { padding:.5rem .75rem; border:1px solid var(--tg-border); border-radius:10px; }
+.tg-sticky { position: sticky; top: 80px; }

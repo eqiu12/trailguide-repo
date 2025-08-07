@@ -1,0 +1,34 @@
+{
+  "name": "Trailguide WP",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "postCreateCommand": "npm i && npm run start",
+  "forwardPorts": [
+    8888,
+    8889
+  ],
+  "portsAttributes": {
+    "8888": {
+      "label": "WordPress",
+      "onAutoForward": "openBrowser"
+    },
+    "8889": {
+      "label": "WP Tests"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "EditorConfig.EditorConfig"
+      ]
+    }
+  }
+}

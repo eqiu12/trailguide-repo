@@ -1,0 +1,28 @@
+
+<!-- wp:template-part {"slug":"header","area":"header"} /-->
+<!-- wp:group {"className":"tg-hero","layout":{"type":"constrained"}} -->
+<div class="wp-block-group tg-hero"><!-- wp:heading {"level":1} -->
+<h1>Travel Guides</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph --> <p>Browse our curated, human-written travel guides with smart AI helpers.</p><!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:query {"queryId":1,"query":{"perPage":12,"pages":0,"offset":0,"postType":"guide","order":"desc","orderBy":"date"},"displayLayout":{"type":"flex","columns":3},"layout":{"type":"constrained"}} -->
+<div class="wp-block-query"><!-- wp:post-template {"className":"tg-grid"} -->
+<!-- wp:group {"className":"tg-card"} -->
+<div class="wp-block-group tg-card"><!-- wp:post-featured-image {"isLink":true,"height":"180px","style":{"border":{"radius":"16px"}}} /-->
+<!-- wp:post-title {"isLink":true} /-->
+<!-- wp:post-excerpt {"moreText":"Read guide →"} /-->
+<!-- wp:post-terms {"term":"country","prefix":"Country: "} /-->
+<!-- wp:post-date {"format":"M j, Y","textColor":"contrast"} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
+<!-- wp:query-pagination-previous /-->
+<!-- wp:query-pagination-numbers /-->
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query -->
+
+<!-- wp:template-part {"slug":"footer","area":"footer"} /-->

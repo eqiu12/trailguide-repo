@@ -1,0 +1,19 @@
+{
+  "themes": [
+    "./themes/trailguide-theme"
+  ],
+  "plugins": [
+    "./plugins/trailguide-ai"
+  ],
+  "core": "WordPress/WordPress#6.6",
+  "config": {
+    "WP_DEBUG": true
+  },
+  "mappings": {},
+  "env": {
+    "development": {
+      "port": 8888,
+      "testsPort": 8889
+    }
+  }
+}

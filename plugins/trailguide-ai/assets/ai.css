@@ -1,0 +1,6 @@
+
+.tg-ai-qa { border:1px solid #e8ecf3; border-radius:16px; padding:12px; background:#fff; }
+.tg-ai-form { display:flex; gap:8px; }
+.tg-ai-form input { flex:1; padding:.6rem .8rem; border:1px solid #e8ecf3; border-radius:10px; }
+.tg-ai-form button { padding:.6rem 1rem; border:1px solid #e8ecf3; border-radius:10px; background:#f5f7fb; cursor:pointer; }
+.tg-ai-answer { margin-top:10px; font-size:.95rem; }

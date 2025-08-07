@@ -1,0 +1,19 @@
+
+<!-- wp:template-part {"slug":"header","area":"header"} /-->
+<!-- wp:group {"className":"tg-hero"} -->
+<div class="wp-block-group tg-hero"><!-- wp:heading {"level":1} -->
+<h1>All Guides</h1>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:query {"queryId":2,"query":{"perPage":12,"postType":"guide"},"displayLayout":{"type":"flex","columns":3}} -->
+<div class="wp-block-query"><!-- wp:post-template {"className":"tg-grid"} -->
+<!-- wp:group {"className":"tg-card"} -->
+<div class="wp-block-group tg-card"><!-- wp:post-featured-image {"isLink":true,"height":"160px","style":{"border":{"radius":"16px"}}} /-->
+<!-- wp:post-title {"isLink":true} /-->
+<!-- wp:post-excerpt {"moreText":"Read guide →"} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+<!-- wp:query-pagination /--></div>
+<!-- /wp:query -->
+<!-- wp:template-part {"slug":"footer","area":"footer"} /-->

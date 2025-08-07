@@ -1,0 +1,15 @@
+{
+  "name": "trailguide-wp",
+  "private": true,
+  "scripts": {
+    "start": "wp-env start",
+    "stop": "wp-env stop",
+    "destroy": "wp-env destroy --yes",
+    "cli": "wp-env run cli",
+    "seed": "bash ./scripts/mock-data.sh",
+    "open": "wp-env run cli -- wp option get siteurl && echo 'Open the forwarded port in Codespaces'"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^8.10.0"
+  }
+}
